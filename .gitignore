@@ -1,0 +1,7 @@
+# secrets and output — never commit these
+token.json
+client_secret*.json
+drive-audit-reports/
+*.pdf
+__pycache__/
+.DS_Store

@@ -1,0 +1,10 @@
+{
+  "Contracts & legal": ["contract", "agreement", "msa", "nda", "sow", "terms", "legal", "addendum", "amendment", "exhibit", "license", "lease"],
+  "Finance": ["invoice", "budget", "forecast", "p&l", "pnl", "revenue", "expense", "expenses", "receipt", "tax", "payroll", "financial", "financials", "model", "pricing", "quote"],
+  "Sales & clients": ["proposal", "pitch", "client", "clients", "customer", "prospect", "deal", "rfp", "crm", "pipeline", "leads"],
+  "Marketing & content": ["marketing", "campaign", "brand", "content", "post", "newsletter", "linkedin", "substack", "blog", "press", "logo", "deck"],
+  "Product & engineering": ["spec", "prd", "roadmap", "architecture", "design", "requirements", "api", "release", "sprint", "backlog", "build"],
+  "People & HR": ["resume", "cv", "offer", "hiring", "interview", "onboarding", "review", "hr", "benefits", "org"],
+  "Operations & planning": ["plan", "planning", "strategy", "ops", "operations", "okr", "okrs", "meeting", "notes", "agenda", "minutes", "process", "runbook"],
+  "Research & reference": ["research", "report", "analysis", "study", "survey", "benchmark", "whitepaper", "reference", "notes"]
+}
