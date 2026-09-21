@@ -1,4 +1,4 @@
-# Create your own sign-in app (about ten minutes, once)
+# Create your own sign-in app (once)
 
 `drive-audit` signs in to Google with an app **you** own, so no one outside your
 organisation ever holds access to your Drive. You need a Google account with access to

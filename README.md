@@ -22,7 +22,7 @@ The audit cannot read the contents of your documents, and every report proves it
 1. It holds a Google token limited to `drive.metadata.readonly` — nothing else.
 2. It asks Google, not itself, what that token may do, and stops if the answer is wider.
 3. **Before scanning anything, it tries to open a document.** Google must refuse. If
-   Google ever allows it, the audit stops and collects nothing.
+   Google ever allows it, the audit stops before scanning and writes nothing.
 4. That refusal is printed at the top of the report, so anyone can check it.
 
 The report stays on the machine that ran it, readable only by you. The terminal shows
@@ -36,7 +36,7 @@ app in your own Google account** and set its one permission yourself. For a Goog
 Workspace organisation, an Internal app needs no Google review. Nobody outside your
 organisation ever holds access to your Drive.
 
-This takes about ten minutes, once: **[docs/oauth-setup.md](docs/oauth-setup.md)**.
+It is a one-time setup: **[docs/oauth-setup.md](docs/oauth-setup.md)**.
 
 ## Run it
 
@@ -78,7 +78,7 @@ changed — not what it says. Specifically:
 - **Sharing** is hidden on files you can view but not manage, so they are counted, not assessed.
 - **Grouping by name** (the taxonomy profile) works well on document-heavy Drives and
   poorly on photo-heavy ones, whose file names carry no subject words.
-- **Google Drive only.** Microsoft 365 is in build.
+- **Google Drive only.** A Microsoft 365 version is planned, not built.
 
 ## Taxonomy profiles
 

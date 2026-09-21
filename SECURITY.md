@@ -21,7 +21,7 @@ Each step is a check the program performs, not a promise it makes:
 | Storing | **Refuses to write a token** if Google granted anything other than exactly that scope | `validate_granted` |
 | Each run | Mints an access token limited to the metadata scope, even from a broader grant | `mint_metadata_token` |
 | Each run | Asks Google's `tokeninfo` endpoint what the token may do; stops unless the answer is exactly the metadata scope | `verify_scope_is_metadata_only` |
-| **Before any scan** | **Tries to read a document's content and requires Google to refuse.** If the read succeeds, the run aborts and collects nothing | `prove_cannot_read_content` |
+| **Before any scan** | **Tries to read a document's content and requires Google to refuse.** If the read succeeds, the run aborts before scanning and writes nothing | `prove_cannot_read_content` |
 | Report | Prints that refusal — the HTTP status and Google's reason — at the top | `render_report` |
 
 ## Where data goes
